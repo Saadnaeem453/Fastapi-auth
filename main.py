@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 from controllers import auth_controller
 from helpers.init_database import init_database
+from dotenv import load_dotenv
+load_dotenv()
 app = FastAPI()
 
 
